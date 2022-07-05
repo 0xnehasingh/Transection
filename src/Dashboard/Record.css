@@ -1,0 +1,73 @@
+.Record {
+  text-align: center;
+}
+
+.Record-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Record-logo {
+    animation: Record-logo-spin infinite 20s linear;
+  }
+}
+
+/* .Record-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.Record-link {
+  color: #61dafb;
+}
+
+@keyframes Record-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.submit-area {
+	padding: 30px;
+	margin-top: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px gray;
+  color: white;
+  background-color: royalblue;
+}
+
+#account-area {
+	margin-top: 5%;
+}
+
+.deposit {
+	background-color: slateblue;
+}
+
+.withdraw {
+	background-color: lightsalmon;
+}
+
+.balance {
+	background-color: tomato;
+}
+.totalbalance{
+  background-color: blueviolet;
+}
+
+.status {
+	margin: 0 20px;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
